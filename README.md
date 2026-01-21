@@ -1,5 +1,7 @@
 # 🌍 Geo Data Dashboard
 
+![Dashboard Preview](assets/dashboard-preview.webp)
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg) ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC.svg) ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900.svg)
 
 A high-performance, Modern React application designed to visualize complex geospatial data relative to tabular datasets. Built with a focus on **performance (5000+ rows)**, **aesthetics (Glassmorphism + Dark Mode)**, and **bidirectional interactivity**.
