@@ -136,25 +136,7 @@ sequenceDiagram
 *   **Decision**: Utility-first CSS.
 *   **Why?**: Allowed for rapid iteration of the "Glassmorphism" aesthetic. Using `backdrop-blur` and opacity utilities made achieving the premium look significantly faster than writing custom CSS classes.
 
-## ⏱️ Development Time
-*   **Total Time**: ~4 Hours
-*   **Breakdown**:
-    *   Core Logic & Setup: 1 Hour
-    *   Map Integration & Sync: 1 Hour
-    *   UI Polishing (Glassmorphism/Dark Mode): 1.5 Hours
-    *   Documentation & Deployment Prep: 0.5 Hours
 
-## SHIP Deployment
-
-This project is optimized for deployment on **Netlify**, **Vercel**, or **GitHub Pages**.
-
-### Netlify Deployment (Recommended)
-1.  Fork/Push this repo to your GitHub.
-2.  Log in to [Netlify](https://www.netlify.com).
-3.  Click "New site from Git".
-4.  Select this repository.
-5.  Build Command: `npm run build`
-6.  Publish Directory: `dist`
 
 ## 🤝 Contributing
 
