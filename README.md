@@ -50,6 +50,18 @@ graph TD
 *   **Dark Theme**: Carefully curated dark palette (Slate/Gray) for reduced eye strain and professional look.
 *   **Animations**: Subtle transitions and micro-interactions powered by CSS and Tailwind.
 
+## 📸 Functionality Overview
+
+### 1. Bidirectional Synchronization
+**Goal**: Ensure the connection between the Map and the Data is intuitive.
+**Implementation**: When a user clicks a marker on the map, the corresponding row in the table is instantly highlighted and scrolled into view. Conversely, clicking a table row flies the map to that location.
+![Map to Table Sync](assets/feature-sync.png)
+
+### 2. High-Performance Filtering
+**Goal**: Allow users to find specific data points among thousands of records instantly.
+**Implementation**: The search bar filters specific columns (City, Event Type) in real-time. The map updates dynamically to show only the filtered results.
+![Real-time Filtering](assets/feature-search.png)
+
 ## 🛠️ Technology Stack
 
 | Category | Technology | Usage |
